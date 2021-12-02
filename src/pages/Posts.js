@@ -1,11 +1,16 @@
-import React from 'react'
+import React from "react";
+import FormPost from "../components/Form";
+import { Col } from "reactstrap";
 
 function Posts() {
-    return (
-        <div>
-           <h1>POSTS</h1> 
-        </div>
-    )
+  return (
+    <div>
+      <Col md="4"></Col>
+      <Col md="4">
+        <FormPost></FormPost>
+      </Col>
+    </div>
+  );
 }
 
-export default Posts
+export default Posts;
