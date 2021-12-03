@@ -5,7 +5,7 @@ function NavMenu() {
   return (
     <div>
       <Navbar color="light" light expand="md">
-        <NavbarBrand href="/">reactstrap</NavbarBrand>
+        <NavbarBrand href="/">Home</NavbarBrand>
         <Nav className="ml-auto" navbar>
           <NavItem>
             <NavLink href="/users">Users</NavLink>
